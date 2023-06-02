@@ -1,0 +1,54 @@
+body {
+    display:flex;
+    align-content:center;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+}
+
+#big-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top:100px;
+}
+#gallery-images {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:550px;
+    gap:30px;
+    column-gap:30px;
+    row-gap:30px;
+}
+.gallery-image{
+    
+    width:150px;
+    height:100px;
+    cursor:pointer
+}
+#selected-image {
+    width: 500px;
+    height: 350px;
+}
+#buttons-container {
+    display:flex;
+    justify-content:center;
+    gap:50px;
+}
+button {
+    border-radius:30px;
+    color:azure;
+    background-color:black;
+    width:50px;
+    height:auto;
+}
+#image-container{
+    padding:10px;
+}
+
+.active
+{
+    background-color:aliceblue;
+    color:black
+}
